@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "PHI-SWARM: Physics-Hybrid Integrity Framework for Secure Autonomous UAV Swarms"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: Bello
+    given-names: S. M.
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/Sm-bello/PHI-SWARM"
+abstract: >-
+  Software L0–L9 framework for integrity-gated federated PHM on multi-UAV
+  swarms. Physics-twin data stays local; only signed weight deltas are
+  exchanged. Reproducible validation suite. No flight or HIL claims.
+keywords:
+  - uav
+  - swarm
+  - federated-learning
+  - phm
+  - digital-twin
+  - integrity
+  - physics-informed
