@@ -1,0 +1,64 @@
+{
+  "seed": 42,
+  "nodes": 5,
+  "rounds": 6,
+  "samples_per_node": 400,
+  "link_loss_rounds": 0,
+  "attack_rate": 0.0,
+  "model_parameters": 173157,
+  "accuracy_centralized": 0.9025,
+  "accuracy_isolated_mean": 0.84,
+  "accuracy_federated": 0.98,
+  "federation_gain_over_isolated": 0.14,
+  "gap_to_centralized": -0.0775,
+  "approx_param_bytes_total": 20778840,
+  "integrity_gate": {
+    "total_updates_seen": 30,
+    "accepted": 30,
+    "rejected": 0,
+    "note": "Updates are Ed25519-signed as deltas (local - global), verified, and norm-checked before aggregation. Rejected updates (tampered signature or anomalous-magnitude delta) are excluded from FedAvg."
+  },
+  "history": {
+    "round": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "global_acc": [
+      0.3675,
+      0.6775,
+      0.7875,
+      0.555,
+      0.815,
+      0.98
+    ],
+    "signed_ok": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "accepted": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "rejected": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "claim_note": "Federated path exchanges signed weight DELTAS only; raw telemetry stays on each node. Every delta is signature- and norm-checked before aggregation (integrity gate), not just signed."
+}

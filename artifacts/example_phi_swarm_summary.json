@@ -1,0 +1,310 @@
+{
+  "framework": "PHI-SWARM",
+  "elapsed_seconds": 123.7,
+  "fed_rounds": 12,
+  "global_accuracy": 0.2233,
+  "security": {
+    "accepted_updates": 50,
+    "rejected_updates": 10,
+    "encrypted_messages": 6,
+    "eavesdrops_blocked": 6,
+    "replays_blocked": 2,
+    "recent_events": [
+      {
+        "seq": 157,
+        "ts": 1788218797.7984858,
+        "event_type": "integrity_gate",
+        "details": {
+          "accepted": true,
+          "attack": null,
+          "fed_round": 12,
+          "node_id": 5,
+          "reasons": [
+            "ok"
+          ],
+          "trust": 0.7905,
+          "weight": 0.7535330279747885
+        },
+        "prev_hash": "98252aeb857ea9b6c1ec519414055ef98a6405c008da5010174cfeac59cecb0d",
+        "entry_hash": "a621def096bf1f813857877086c3e6ed79bbf4406cb730e0857fbf2ec54a5830"
+      },
+      {
+        "seq": 158,
+        "ts": 1788218797.9901133,
+        "event_type": "fed_round",
+        "details": {
+          "accepted": 5,
+          "global_acc": 0.2233,
+          "rejected": 0,
+          "round": 12
+        },
+        "prev_hash": "a621def096bf1f813857877086c3e6ed79bbf4406cb730e0857fbf2ec54a5830",
+        "entry_hash": "2a988f6a6e97508b2d177519576f55fffafba5ee836bcfddf83f694de37ec940"
+      },
+      {
+        "seq": 159,
+        "ts": 1788218797.9921193,
+        "event_type": "autonomy_decision",
+        "details": {
+          "ai_action": "CONTINUE",
+          "fed_round": 12,
+          "final_action": "CONTINUE",
+          "health": {
+            "battery": 0.922,
+            "bearing": 0.922,
+            "confidence": 92.2,
+            "fault_label": 0,
+            "motor": 0.922,
+            "node_id": 1,
+            "overall": 0.922,
+            "status": "HEALTHY",
+            "thermal": 0.922
+          },
+          "node_id": 1,
+          "risk": "LOW",
+          "risk_score": 0.078,
+          "safety_reasons": [
+            "constraints_ok"
+          ]
+        },
+        "prev_hash": "2a988f6a6e97508b2d177519576f55fffafba5ee836bcfddf83f694de37ec940",
+        "entry_hash": "5a8da178d301a1c14c5ed4170d673647f1f0d19f8957db0fa16ac6bd1af69bdf"
+      },
+      {
+        "seq": 160,
+        "ts": 1788218797.993626,
+        "event_type": "autonomy_decision",
+        "details": {
+          "ai_action": "CONTINUE",
+          "fed_round": 12,
+          "final_action": "CONTINUE",
+          "health": {
+            "battery": 0.926,
+            "bearing": 0.926,
+            "confidence": 92.6,
+            "fault_label": 0,
+            "motor": 0.926,
+            "node_id": 2,
+            "overall": 0.926,
+            "status": "HEALTHY",
+            "thermal": 0.926
+          },
+          "node_id": 2,
+          "risk": "LOW",
+          "risk_score": 0.074,
+          "safety_reasons": [
+            "constraints_ok"
+          ]
+        },
+        "prev_hash": "5a8da178d301a1c14c5ed4170d673647f1f0d19f8957db0fa16ac6bd1af69bdf",
+        "entry_hash": "ac939c581aeef5dc80bd9dff2fb4ea5c8f4bb6d19c89bc511eac8792a96e54d8"
+      },
+      {
+        "seq": 161,
+        "ts": 1788218797.993626,
+        "event_type": "autonomy_decision",
+        "details": {
+          "ai_action": "CONTINUE",
+          "fed_round": 12,
+          "final_action": "CONTINUE",
+          "health": {
+            "battery": 0.929,
+            "bearing": 0.929,
+            "confidence": 92.9,
+            "fault_label": 0,
+            "motor": 0.929,
+            "node_id": 3,
+            "overall": 0.929,
+            "status": "HEALTHY",
+            "thermal": 0.929
+          },
+          "node_id": 3,
+          "risk": "LOW",
+          "risk_score": 0.071,
+          "safety_reasons": [
+            "constraints_ok"
+          ]
+        },
+        "prev_hash": "ac939c581aeef5dc80bd9dff2fb4ea5c8f4bb6d19c89bc511eac8792a96e54d8",
+        "entry_hash": "b9e99272fb837bea37c4a9272b921e10ab51094c43addf1cfd850bdc19fc00d4"
+      },
+      {
+        "seq": 162,
+        "ts": 1788218797.9951458,
+        "event_type": "autonomy_decision",
+        "details": {
+          "ai_action": "CONTINUE",
+          "fed_round": 12,
+          "final_action": "CONTINUE",
+          "health": {
+            "battery": 0.936,
+            "bearing": 0.936,
+            "confidence": 93.6,
+            "fault_label": 0,
+            "motor": 0.936,
+            "node_id": 4,
+            "overall": 0.936,
+            "status": "HEALTHY",
+            "thermal": 0.936
+          },
+          "node_id": 4,
+          "risk": "LOW",
+          "risk_score": 0.064,
+          "safety_reasons": [
+            "constraints_ok"
+          ]
+        },
+        "prev_hash": "b9e99272fb837bea37c4a9272b921e10ab51094c43addf1cfd850bdc19fc00d4",
+        "entry_hash": "f64b5a9f7de9fd04fda91e6370a2a8efe0a7012b544c0d900058e9adba247427"
+      },
+      {
+        "seq": 163,
+        "ts": 1788218797.9951458,
+        "event_type": "autonomy_decision",
+        "details": {
+          "ai_action": "CONTINUE",
+          "fed_round": 12,
+          "final_action": "CONTINUE",
+          "health": {
+            "battery": 0.948,
+            "bearing": 0.948,
+            "confidence": 94.8,
+            "fault_label": 0,
+            "motor": 0.948,
+            "node_id": 5,
+            "overall": 0.948,
+            "status": "HEALTHY",
+            "thermal": 0.948
+          },
+          "node_id": 5,
+          "risk": "LOW",
+          "risk_score": 0.052,
+          "safety_reasons": [
+            "constraints_ok"
+          ]
+        },
+        "prev_hash": "f64b5a9f7de9fd04fda91e6370a2a8efe0a7012b544c0d900058e9adba247427",
+        "entry_hash": "2caa4e46df68150a8a70b17f2d2e65b95ff6e3fdfbe1763aff1dc63c62f7803f"
+      },
+      {
+        "seq": 164,
+        "ts": 1788218797.9951458,
+        "event_type": "swarm_directives",
+        "details": {
+          "directives": [
+            {
+              "node_id": 1,
+              "note": "full mission role",
+              "role": "PRIMARY"
+            },
+            {
+              "node_id": 2,
+              "note": "full mission role",
+              "role": "PRIMARY"
+            },
+            {
+              "node_id": 3,
+              "note": "full mission role",
+              "role": "PRIMARY"
+            },
+            {
+              "node_id": 4,
+              "note": "full mission role",
+              "role": "PRIMARY"
+            },
+            {
+              "node_id": 5,
+              "note": "full mission role",
+              "role": "PRIMARY"
+            }
+          ],
+          "fed_round": 12
+        },
+        "prev_hash": "2caa4e46df68150a8a70b17f2d2e65b95ff6e3fdfbe1763aff1dc63c62f7803f",
+        "entry_hash": "d9578d35f38a842873101d71d878d2f4c3991fabe4920b58352ac1f6fade50e6"
+      }
+    ]
+  },
+  "trust": {
+    "1": {
+      "score": 0.8819,
+      "accepts": 10,
+      "rejects": 2,
+      "physics_penalties": 0,
+      "quarantined": false,
+      "accept_rate": 0.8333
+    },
+    "2": {
+      "score": 0.8647,
+      "accepts": 11,
+      "rejects": 1,
+      "physics_penalties": 0,
+      "quarantined": false,
+      "accept_rate": 0.9167
+    },
+    "3": {
+      "score": 0.9047,
+      "accepts": 10,
+      "rejects": 2,
+      "physics_penalties": 0,
+      "quarantined": false,
+      "accept_rate": 0.8333
+    },
+    "4": {
+      "score": 0.8537,
+      "accepts": 10,
+      "rejects": 2,
+      "physics_penalties": 0,
+      "quarantined": false,
+      "accept_rate": 0.8333
+    },
+    "5": {
+      "score": 0.7905,
+      "accepts": 9,
+      "rejects": 3,
+      "physics_penalties": 0,
+      "quarantined": false,
+      "accept_rate": 0.75
+    }
+  },
+  "directives": [
+    {
+      "node_id": 1,
+      "role": "PRIMARY",
+      "note": "full mission role"
+    },
+    {
+      "node_id": 2,
+      "role": "PRIMARY",
+      "note": "full mission role"
+    },
+    {
+      "node_id": 3,
+      "role": "PRIMARY",
+      "note": "full mission role"
+    },
+    {
+      "node_id": 4,
+      "role": "PRIMARY",
+      "note": "full mission role"
+    },
+    {
+      "node_id": 5,
+      "role": "PRIMARY",
+      "note": "full mission role"
+    }
+  ],
+  "audit_verified": false,
+  "levels_active": [
+    "L0",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "L7",
+    "L8",
+    "L9"
+  ]
+}

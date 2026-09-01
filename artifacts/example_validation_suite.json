@@ -1,0 +1,38 @@
+{
+  "all_ok": true,
+  "elapsed_seconds": 1380.21,
+  "steps": [
+    {
+      "name": "integrity",
+      "ok": true,
+      "seconds": 28.29
+    },
+    {
+      "name": "seed_sweep",
+      "ok": true,
+      "seconds": 942.46
+    },
+    {
+      "name": "link_loss",
+      "ok": true,
+      "seconds": 276.84
+    },
+    {
+      "name": "edge",
+      "ok": true,
+      "seconds": 4.14
+    },
+    {
+      "name": "phi_swarm_2min",
+      "ok": true,
+      "seconds": 128.46
+    }
+  ],
+  "artifacts_present": [
+    "integrity_metrics.json",
+    "seed_sweep.json",
+    "resilience_results.json",
+    "edge_benchmark.json",
+    "phi_swarm_summary.json"
+  ]
+}
