@@ -1,0 +1,34 @@
+{
+  "title": "PHI-SWARM: Physics-Hybrid Integrity Framework for Secure Autonomous UAV Swarms",
+  "description": "Software L0-L9 framework for integrity-gated federated PHM on multi-UAV swarms. Physics-twin data stays local; only signed weight deltas are exchanged. Reproducible validation suite, threat model, and audit trail. No flight claims. Developed at Penelope Inc. (PHI Lab).",
+  "creators": [
+    {
+      "name": "Bello, Mohammed Sani",
+      "affiliation": "Penelope Inc. (PHI Lab)"
+    }
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "keywords": [
+    "federated learning",
+    "prognostics and health management",
+    "UAV swarm",
+    "digital twin",
+    "physics-informed machine learning",
+    "integrity",
+    "adversarial robustness"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Sm-bello/PHI-SWARM",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://penelope-inc.vercel.app",
+      "relation": "isPartOf",
+      "scheme": "url"
+    }
+  ]
+}
