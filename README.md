@@ -2,6 +2,7 @@
 
 **Physics-Hybrid Integrity Framework for Secure Autonomous UAV Swarms**
 
+Built by [Mohammed Bello Sani](https://smbello.vercel.app) at [Penelope Inc. — PHI Lab](https://penelope-inc.vercel.app).
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Reproducible](https://img.shields.io/badge/reproducible-yes-brightgreen.svg)](docs/reproducibility.md)
@@ -180,7 +181,44 @@ Runtime outputs land in `zerotwin/results/` (gitignored). Regenerate with the sc
 }
 ```
 
-See also `CITATION.cff`. After a Zenodo release, replace the URL with the DOI.
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "PHI-SWARM: Physics-Hybrid Integrity Framework for Secure Autonomous UAV Swarms"
+authors:
+  - family-names: "Bello"
+    given-names: "Mohammed Sani"
+    affiliation: "Penelope Inc. (PHI Lab)"
+    website: "https://smbello.vercel.app"
+version: "1.0.0"
+date-released: "2026-09-01"
+repository-code: "https://github.com/Sm-bello/PHI-SWARM"
+url: "https://penelope-inc.vercel.app"
+license: MIT
+type: software
+keywords:
+  - federated learning
+  - prognostics and health management
+  - UAV swarm
+  - digital twin
+  - physics-informed machine learning
+  - integrity
+  - adversarial robustness
+---
+---
+
+## Author & Lab
+
+[#author--lab](#author--lab)
+
+**Mohammed Bello Sani** — Founder, CEO & Chief Technologist
+Aerospace Engineering (AFIT Kaduna) · Incoming M.Sc., Smart Aviation Center, Beihang University
+
+- Portfolio: [smbello.vercel.app](https://smbello.vercel.app)
+- Lab: [Penelope Inc. — PHI Lab](https://penelope-inc.vercel.app)
+- GitHub: [@Sm-bello](https://github.com/Sm-bello)
+
+PHI-SWARM is developed under **Penelope Inc.'s PHI Lab**, alongside the related
+PHI-Twin, PHI-Chain, and PHI-Drone suites.
 
 ---
 
