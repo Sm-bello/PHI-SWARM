@@ -1,0 +1,8 @@
+threat_id,name,adversary_capability,layer,control,evidence_source
+T1,Forged model update (bad signature),Send delta-W without valid Ed25519 signature,L3 crypto verify,Reject on bad_signature,validate_l5_l9 TEST1; IntegrityGate.check
+T2,Anomalous delta-W with valid signature,Compromised honest key; oversized / physics-inconsistent update,L3 norm + physics gate,Reject despite valid signature (norm_anomaly / physics),validate_l5_l9 TEST1; seed_sweep gate rejects
+T3,Replay of prior accepted update,Resend previously accepted signed package,L3 replay / round monotonicity,Reject replay_or_stale_round,validate_l5_l9 TEST2
+T4,Sustained malicious behavior,Repeated accepted-looking but harmful updates,L5 trust EMA + quarantine,Trust decay -> quarantine threshold,validate_l5_l9 TEST1 quarantine
+T5,Eavesdrop on inter-node messages,Passive listener on message channel,L4 encrypted messaging,Encrypted payload; eavesdrop blocked,phi_swarm_summary security counters
+T6,Link loss / partition,Drop participation for N rounds,L2 federation resilience,Continue with available nodes; accuracy recovery curve,resilience_results.json
+T7,Degraded platform (battery/bearing),n/a (endogenous fault),L7-L9 risk / decision / swarm roles,LAND/EGRESS + ESCORT reassignment; no unsafe escalate,validate_l5_l9 TEST3/TEST4

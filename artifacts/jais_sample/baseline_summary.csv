@@ -1,0 +1,8 @@
+metric,mean,std,min,max,ci95_low,ci95_high
+accuracy_centralized,0.9535,0.0848,0.744,1.0,0.9163,0.9907
+accuracy_isolated_mean,0.8442,0.0572,0.69,0.95,0.8191,0.8693
+accuracy_federated,0.8951,0.1081,0.592,0.998,0.8477,0.9425
+federation_gain_over_isolated,0.0509,0.1086,,,,
+fraction_seeds_fed_gt_isolated,0.65,,,,,
+integrity_gate_accepted_total,756,,,,,
+integrity_gate_rejected_total,44,,,,,
